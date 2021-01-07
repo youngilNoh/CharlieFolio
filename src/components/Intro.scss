@@ -1,0 +1,67 @@
+.intro {
+    .intro__logo--c, .intro__logo--h, .intro__logo--a, .intro__logo--r, .intro__logo--l, .intro__logo--i, .intro__logo--e {
+        position: absolute;
+        top: -200%;
+        animation-name: bounce;
+
+        @keyframes bounce { 
+            0% {transform: translateY(-1000%);}
+            20% {transform: translateY(0%);}
+            40% {transform: translateY(-10%);}
+            100% {transform: translateY(0%);}
+        }
+
+        &.float {
+            animation-name: floating;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+            @keyframes floating { 
+                0% { transform: translate(0,  0px); } 
+                50%  { transform: translate(0, 10px); } 
+                100%   { transform: translate(0, -0px); }     
+            } 
+        }        
+
+        path {
+            fill: #fff;
+            stroke: #fff;
+            stroke-miterlimit: 10;
+        }
+    }
+
+    .intro__logo--c {
+        left: 20%;
+        width: 30vw;
+    }
+
+    .intro__logo--h {
+        left: 35%;
+        width: 4vw;
+    }
+
+    .intro__logo--a {
+        left: 50%;
+        width: 5vw;
+    }
+
+    .intro__logo--r {
+        left: 43%;
+        width: 4vw;
+    }
+
+    .intro__logo--l {
+        left: 60%;
+        width: 2vw;
+    }
+
+    .intro__logo--i {
+        left: 70%;
+        width: 1.5vw;
+    }
+
+    .intro__logo--e {
+        left: 80%;
+        width: 4vw;
+    }
+}
