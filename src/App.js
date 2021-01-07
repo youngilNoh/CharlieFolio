@@ -6,7 +6,7 @@ import Intro from "./routes/Intro";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Route path="/" exact={true} component={Intro}></Route>
         <Route path="/Home" component={Home}></Route>
       </Router>
