@@ -1,4 +1,6 @@
 .intro {
+    height: 100vh;
+    background-color: black;
     .intro__logo--c, .intro__logo--h, .intro__logo--a, .intro__logo--r, .intro__logo--l, .intro__logo--i, .intro__logo--e {
         position: absolute;
         top: -200%;
@@ -63,5 +65,23 @@
     .intro__logo--e {
         left: 80%;
         width: 4vw;
+    }
+
+    .intro__cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        left: -100%;
+
+        &.start{
+            animation-name: cover;
+            animation-duration: 1s;
+
+            @keyframes cover { 
+                0% {transform: translateX(-100%);}
+                100% {transform: translateX(0%);}
+            }
+        }
     }
 }

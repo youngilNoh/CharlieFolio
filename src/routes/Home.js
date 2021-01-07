@@ -1,11 +1,14 @@
 import React from "react";
 import "./Home.scss";
-import Intro from "../components/Intro";
 
 function Home() {
   return (
     <div className="home">
-      <Intro />
+      <div className="home__cover"></div>
+      <div className="home__contents">
+        <h1>Hi I'm Charlie</h1>
+        <p>CharlieFolio is not complete. please wait.</p>
+      </div>
     </div>
   );
 }
