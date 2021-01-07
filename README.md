@@ -2,4 +2,4 @@
 
 This is Charlie's portfolio
 
-<a href="">Click this link</a>
+<a href="https://youngilnoh.github.io/CharlieFolio/" target="_blank">Click this link</a>
