@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CharlieFolio/static/css/main.84fdc893.chunk.css",
-    "main.js": "/CharlieFolio/static/js/main.9d285693.chunk.js",
-    "main.js.map": "/CharlieFolio/static/js/main.9d285693.chunk.js.map",
+    "main.css": "/CharlieFolio/static/css/main.797e3dec.chunk.css",
+    "main.js": "/CharlieFolio/static/js/main.04e335c8.chunk.js",
+    "main.js.map": "/CharlieFolio/static/js/main.04e335c8.chunk.js.map",
     "runtime-main.js": "/CharlieFolio/static/js/runtime-main.8e4707bf.js",
     "runtime-main.js.map": "/CharlieFolio/static/js/runtime-main.8e4707bf.js.map",
     "static/js/2.fe76f6f3.chunk.js": "/CharlieFolio/static/js/2.fe76f6f3.chunk.js",
     "static/js/2.fe76f6f3.chunk.js.map": "/CharlieFolio/static/js/2.fe76f6f3.chunk.js.map",
     "index.html": "/CharlieFolio/index.html",
-    "static/css/main.84fdc893.chunk.css.map": "/CharlieFolio/static/css/main.84fdc893.chunk.css.map",
+    "static/css/main.797e3dec.chunk.css.map": "/CharlieFolio/static/css/main.797e3dec.chunk.css.map",
     "static/js/2.fe76f6f3.chunk.js.LICENSE.txt": "/CharlieFolio/static/js/2.fe76f6f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e4707bf.js",
     "static/js/2.fe76f6f3.chunk.js",
-    "static/css/main.84fdc893.chunk.css",
-    "static/js/main.9d285693.chunk.js"
+    "static/css/main.797e3dec.chunk.css",
+    "static/js/main.04e335c8.chunk.js"
   ]
 }
